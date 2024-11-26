@@ -27,9 +27,17 @@ header nav ul li a {
     text-decoration: none;
     font-size: 18px;
 }
+
+footer {
+    background-color: #fbbc1c ;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
 body {
     font-family: Arial, sans-serif;
-    background-image: url(/imagenes/Fondo.jpg);
+    background-image: url("imagenes/Fondo.jpg");
     color: #333;
     margin: 0;
     padding: 0;
@@ -40,31 +48,29 @@ main {
     margin: 20px auto;
     padding: 20px;
     background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 2.5em;
     color: #007BFF;
     text-align: center;
     margin-bottom: 20px;
 }
 
-section {
-    margin-bottom: 30px;
-}
-
-section h2 {
-    font-size: 1.5em;
+h2 {
+    font-size: 1.8em;
     color: #0056b3;
     border-bottom: 2px solid #007BFF;
     padding-bottom: 5px;
     margin-bottom: 10px;
 }
 
-section p {
+p {
     line-height: 1.6;
     margin-bottom: 15px;
+    text-align: justify;
 }
 
 .highlight {
@@ -72,12 +78,16 @@ section p {
     font-weight: bold;
 }
 
-footer {
-    background-color: #fbbc1c ;
-    color: white;
+.imagen {
     text-align: center;
-    padding: 20px;
-    margin-top: 20px;
+    margin-top: 5%;
+}
+
+.imagen img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 footer p {
